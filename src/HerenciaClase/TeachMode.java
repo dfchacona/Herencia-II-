@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia.ii;
+package HerenciaClase;
 
 /**
  *
  * @author Estudiante
  */
-public class Mode {
-    
+public class TeachMode extends Mode{
+            
     public void work(){
-        System.out.println("");
+        System.out.println("teach");
     }
     
     public void drink(){
-        System.out.println("");
+        System.out.println("water");
     }
     
 }

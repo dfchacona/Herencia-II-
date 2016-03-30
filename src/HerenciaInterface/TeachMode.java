@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia.ii;
+package HerenciaInterface;
+
+
 
 /**
  *
  * @author Estudiante
  */
-public class AdmMode {
+public class TeachMode implements Mode{
             
     public void work(){
-        System.out.println("administrate");
+        System.out.println("teach");
     }
     
     public void drink(){
-        System.out.println("tea");
+        System.out.println("water");
     }
     
 }

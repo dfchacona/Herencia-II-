@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencia.ii;
+package HerenciaInterface;
+
+
 
 /**
  *
  * @author Estudiante
  */
-public class HerenciaII {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class WriteMode implements Mode {
+        
+    public void work(){
+        System.out.println("write");
+    }
+    
+    public void drink(){
+        System.out.println("coffee");
     }
     
 }
